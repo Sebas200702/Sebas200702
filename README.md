@@ -1,11 +1,12 @@
 <h1 align="center">Sebastián Torregroza</h1>
 
 <p align="center">
-  <b>Full-Stack Developer</b> · Barranquilla, Colombia 🇨🇴
+  <b>Backend Engineer · Systems & AI Infrastructure</b><br/>
+  Barranquilla, Colombia 🇨🇴
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sebastián-torregroza-b16579299/">
+  <a href="https://www.linkedin.com/in/sebasti%C3%A1n-torregroza-b16579299/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:sebastorregroza6@gmail.com">
@@ -15,72 +16,94 @@
 
 ---
 
-## About Me
+## 👋 About Me
 
-I build backend systems and APIs. My focus is on architecture decisions that hold up under real load — not clever code that falls apart when requirements change.
+Backend Engineer focused on **building reliable systems**, not just shipping features.
 
-Most of what I know came from working with actual users. I spent time in **Beca Talento** doing direct support for university applicants, which meant watching where people got stuck in broken processes. That's what led me to start building tools to fix those gaps rather than just document them.
+I specialize in:
+- designing **modular backend architectures**,
+- implementing **robust authentication & authorization systems**,
+- translating **complex operational processes** into maintainable, scalable software.
 
-Right now I'm working on an AI service that routes requests across multiple LLM providers and a CRM built from scratch with my brother.
+I work close to the core of products: **auth, permissions, auditability, API contracts, and infrastructure**.  
+My goal is to reduce long-term complexity and avoid early technical debt.
 
----
-
-## Experience
-
-**Full-Stack Developer — AI Service** *(Jan 2026 – Present)*
-
-The problem was simple: we needed to use multiple LLM providers without rewriting integrations every time one changed pricing or broke.
-
-I built a unified API with **ElysiaJS + Vercel AI SDK** that exposes a single HTTP contract regardless of what's running underneath. On top of that, a strategy engine that picks between low-cost and low-latency models depending on what the request actually needs. When a provider goes down, it falls over to the next one automatically.
-
----
-
-**Frontend Developer — Amelia** *(Feb – Jul 2025)*
-
-During enrollment season at CUC, the support team got buried in the same questions over and over — scholarship requirements, program costs, enrollment steps. I built a chatbot prototype to handle the FAQ layer so the team could focus on cases that actually needed a person.
+Currently, I build **production-grade infrastructure**, including:
+- 2FA (Email & TOTP),
+- fine-grained access control,
+- API key management,
+- AI service orchestration across multiple providers.
 
 ---
 
-**Beca Talento — Universidad de la Costa** *(Feb 2025 – Present)*
+## 💼 Experience
 
-Direct support work for students and applicants navigating administrative processes. The practical side: learning to figure out what someone actually needs, not just what they're asking for.
+### Backend Engineer — Fundación Colombia Incluyente  
+**Kana CRM** · *Apr 2026 – Present*
 
----
+- Designed and implemented the **authentication infrastructure**, including:
+  - session-based auth,
+  - revocable sessions,
+  - Email & TOTP-based 2FA,
+  - API key generation and management.
+- Built a **domain-driven backend architecture** (`auth`, `users`, `permissions`, `audit`, `projects`).
+- Modeled a **relational database (PostgreSQL)** with 20+ tables, ensuring referential integrity and full auditability.
+- Implemented a **global authorization layer** with unified session resolution and rate limiting.
 
-## Tech Stack
-
-**Backend & Infrastructure**
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,nodejs,postgres,sqlite,docker,python&perline=6" />
-  </a>
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/ElysiaJS-000000?style=flat-square&logo=bun&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/Better_Auth-3B82F6?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white" />
-</p>
-
-**Frontend & Tooling**
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,astro,tailwind,git,github,vercel,vscode&perline=7" />
-  </a>
-</p>
+> This is not a generic CRM — it is a **custom platform** designed for complex social programs with real operational constraints.
 
 ---
 
-## Projects
+### Full-Stack Developer — AI Service  
+*Jan 2026 – Present*
+
+- Built a **unified API abstraction** over multiple LLM providers (OpenAI, Anthropic, Google Gemini).
+- Implemented a **dynamic request routing engine** based on cost and latency strategies.
+- Designed **automatic fallback mechanisms** and resilient error handling to ensure high availability.
+- Eliminated vendor lock-in by enforcing stable internal contracts.
+
+---
+
+### Frontend Developer / Product Creator — Amelia (AI Assistant)  
+*Feb 2025 – Jul 2025*
+
+- Built a functional React-based AI assistant to automate FAQ handling in admission processes.
+- Reduced operational load by absorbing repetitive, high-volume queries.
+- Improved response times and user experience in first-level support flows.
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend & Architecture**
+- TypeScript (Strict)
+- Bun · ElysiaJS
+- PostgreSQL · Drizzle ORM
+- REST APIs · Auth systems · RBAC
+
+**Frontend**
+- React · Astro
+- Zustand · Tailwind CSS
+
+**AI & Orchestration**
+- Vercel AI SDK
+- OpenAI · Anthropic · Google Gemini APIs
+
+---
+
+## 🚀 Key Projects
 
 | Project | Description |
-|---------|-------------|
-| [AI Service](https://github.com/Sebas200702/ai-service) | Unified LLM API over ElysiaJS. Routes requests across providers with a cost/latency strategy engine and auto-fallback. |
-| Kana CRM *(private)* | CRM built with my brother — I handle backend, auth (2FA, API keys, RBAC), and API design. Astro SSR + Drizzle + Better Auth. |
-| Amelia *(prototype)* | FAQ chatbot for CUC built to reduce support load during enrollment. Built from watching the actual friction firsthand. |
-| [AniDev v2](https://github.com/Sebas200702/anidev-v2) | Anime discovery platform. The interesting part was the scraping pipeline and keeping the data model sane at ~10k rows. |
-| [notesku-backend](https://github.com/Sebas200702/notesku-backend) | REST API for notes with auth and PostgreSQL. Early project, still worth showing the structure. |
+|-------|-------------|
+| **Kana CRM** | Backend infrastructure for a social CRM. Robust auth (2FA/TOTP), fine-grained permissions, audit logs, and scalable domain design. |
+| **[AI Service](https://github.com/Sebas200702/ai-service)** | Unified API for LLM providers with dynamic routing, cost/latency optimization, and fault tolerance. |
+| **Amelia** | AI assistant built to reduce operational bottlenecks in high-volume support environments. |
 
 ---
 
+## 📌 What I Care About
+
+- Correctness over hacks  
+- Clear domain boundaries  
+- Explicit contracts  
+- Systems that survive growth
