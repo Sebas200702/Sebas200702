@@ -1,109 +1,58 @@
-<h1 align="center">Sebastián Torregroza</h1>
+<!-- ═══════════════ BANNER ═══════════════ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/light.svg">
+  <img alt="Sebastian Torregroza — Backend Engineer"
+    src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/light.svg">
+</picture>
 
-<p align="center">
-  <b>Backend Engineer · Systems & AI Infrastructure</b><br/>
-  Barranquilla, Colombia 🇨🇴
-</p>
+<!-- ═══════════════ STATS ═══════════════ -->
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sebasti%C3%A1n-torregroza-b16579299/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:sebastorregroza6@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<img width="100%" alt="streak" src="https://streak-stats.demolab.com/?user=Sebas200702&hide_border=true&background=010101&stroke=313244&ring=CBA6F7&fire=FAB387&currStreakNum=CDD6F4&currStreakLabel=89B4FA&sideNums=CDD6F4&sideLabels=A6ADC8&dates=6C7086&card_width=1180" />
 
----
+<br/>
 
-## 👋 About Me
+<img width="49%" alt="stats" src="https://sebas-stats.vercel.app/api?username=Sebas200702&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4&bg_color=010101&card_width=500" />
+<img width="49%" alt="top langs" src="https://sebas-stats.vercel.app/api/top-langs/?username=Sebas200702&layout=compact&langs_count=8&hide_border=true&title_color=89B4FA&text_color=CDD6F4&bg_color=010101&card_width=500" />
 
-Backend Engineer focused on **building reliable systems**, not just shipping features.
+</div>
 
-I specialize in:
-- designing **modular backend architectures**,
-- implementing **robust authentication & authorization systems**,
-- translating **complex operational processes** into maintainable, scalable software.
+<!-- ═══════════════ SNAKE ═══════════════ -->
+<!-- Descomentar SOLO cuando la Action haya corrido en verde y exista la rama `output` -->
+<!--
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/output/github-snake.svg" />
+  <img alt="Snake eating my contributions"
+    src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/output/github-snake.svg" />
+</picture>
+</div>
+-->
 
-I work close to the core of products: **auth, permissions, auditability, API contracts, and infrastructure**.  
-My goal is to reduce long-term complexity and avoid early technical debt.
+<!-- ═══════════════ BADGES ═══════════════ -->
+<div align="center">
 
-Currently, I build **production-grade infrastructure**, including:
-- 2FA (Email & TOTP),
-- fine-grained access control,
-- API key management,
-- AI service orchestration across multiple providers.
+<a href="https://www.linkedin.com/in/sebasti%C3%A1n-torregroza-b16579299/">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-010101?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=010101" />
+</a>
+&nbsp;&nbsp;
+<a href="https://x.com/SebasTorregroza">
+  <img alt="X" src="https://img.shields.io/badge/X-010101?style=for-the-badge&logo=x&logoColor=CDD6F4&labelColor=010101" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:sebastorregroza6@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-010101?style=for-the-badge&logo=gmail&logoColor=F38BA8&labelColor=010101" />
+</a>
 
----
+</div>
 
-## 💼 Experience
-
-### Backend Engineer — Fundación Colombia Incluyente  
-**Kana CRM** · *Apr 2026 – Present*
-
-- Designed and implemented the **authentication infrastructure**, including:
-  - session-based auth,
-  - revocable sessions,
-  - Email & TOTP-based 2FA,
-  - API key generation and management.
-- Built a **domain-driven backend architecture** (`auth`, `users`, `permissions`, `audit`, `projects`).
-- Modeled a **relational database (PostgreSQL)** with 20+ tables, ensuring referential integrity and full auditability.
-- Implemented a **global authorization layer** with unified session resolution and rate limiting.
-
-> This is not a generic CRM — it is a **custom platform** designed for complex social programs with real operational constraints.
-
----
-
-### Full-Stack Developer — AI Service  
-*Jan 2026 – Present*
-
-- Built a **unified API abstraction** over multiple LLM providers (OpenAI, Anthropic, Google Gemini).
-- Implemented a **dynamic request routing engine** based on cost and latency strategies.
-- Designed **automatic fallback mechanisms** and resilient error handling to ensure high availability.
-- Eliminated vendor lock-in by enforcing stable internal contracts.
-
----
-
-### Frontend Developer / Product Creator — Amelia (AI Assistant)  
-*Feb 2025 – Jul 2025*
-
-- Built a functional React-based AI assistant to automate FAQ handling in admission processes.
-- Reduced operational load by absorbing repetitive, high-volume queries.
-- Improved response times and user experience in first-level support flows.
-
----
-
-## 🛠️ Tech Stack
-
-**Backend & Architecture**
-- TypeScript (Strict)
-- Bun · ElysiaJS
-- PostgreSQL · Drizzle ORM
-- REST APIs · Auth systems · RBAC
-
-**Frontend**
-- React · Astro
-- Zustand · Tailwind CSS
-
-**AI & Orchestration**
-- Vercel AI SDK
-- OpenAI · Anthropic · Google Gemini APIs
-
----
-
-## 🚀 Key Projects
-
-| Project | Description |
-|-------|-------------|
-| **Kana CRM** | Backend infrastructure for a social CRM. Robust auth (2FA/TOTP), fine-grained permissions, audit logs, and scalable domain design. |
-| **[AI Service](https://github.com/Sebas200702/ai-service)** | Unified API for LLM providers with dynamic routing, cost/latency optimization, and fault tolerance. |
-| **Amelia** | AI assistant built to reduce operational bottlenecks in high-volume support environments. |
-
----
-
-## 📌 What I Care About
-
-- Correctness over hacks  
-- Clear domain boundaries  
-- Explicit contracts  
-- Systems that survive growth
+<!--
+  Si el logo de LinkedIn no aparece (bug de shields.io), usa la variante en azul de marca:
+  https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=CDD6F4
+-->
