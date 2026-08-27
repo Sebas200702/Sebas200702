@@ -8,6 +8,16 @@
     src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/light.svg">
 </picture>
 
+<!-- ═══════════════ STACK ═══════════════ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stack-light.svg">
+  <img alt="Tech stack"
+    src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stack-light.svg">
+</picture>
+
 <!-- ═══════════════ PROJECTS ═══════════════ -->
 <div align="center">
 
