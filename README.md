@@ -21,18 +21,18 @@
 <!-- ═══════════════ PROJECTS ═══════════════ -->
 <div align="center">
 
-<img width="49%" alt="Healthy_Habits" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=Healthy_Habits&hide_border=true&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="AniDev" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=AniDev&hide_border=true&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="ai-service" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=ai-service&hide_border=true&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="notesku-backend" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=notesku-backend&hide_border=true&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
+<img width="49%" alt="Healthy_Habits" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=Healthy_Habits&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
+<img width="49%" alt="AniDev" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=AniDev&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
+<img width="49%" alt="ai-service" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=ai-service&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
+<img width="49%" alt="notesku-backend" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=notesku-backend&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
 
 </div>
 
 <!-- ═══════════════ STATS ═══════════════ -->
 <div align="center">
 
-<img width="49%" alt="stats" src="https://sebas-stats.vercel.app/api?username=Sebas200702&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4&bg_color=010101&card_width=500" />
-<img width="49%" alt="top langs" src="https://sebas-stats.vercel.app/api/top-langs/?username=Sebas200702&layout=compact&langs_count=8&hide_border=true&title_color=89B4FA&text_color=CDD6F4&bg_color=010101&card_width=500" />
+<img width="49%" alt="stats" src="https://sebas-stats.vercel.app/api?username=Sebas200702&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&cache_seconds=43200&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4&bg_color=010101&card_width=500" />
+<img width="49%" alt="top langs" src="https://sebas-stats.vercel.app/api/top-langs/?username=Sebas200702&layout=compact&langs_count=8&hide_border=true&cache_seconds=172800&title_color=89B4FA&text_color=CDD6F4&bg_color=010101&card_width=500" />
 
 </div>
 
