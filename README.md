@@ -21,8 +21,6 @@
 </div>
 
 <!-- ═══════════════ SNAKE ═══════════════ -->
-<!-- Descomentar SOLO cuando la Action haya corrido en verde y exista la rama `output` -->
-<!--
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -33,7 +31,6 @@
     src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/output/github-snake.svg" />
 </picture>
 </div>
--->
 
 <!-- ═══════════════ BADGES ═══════════════ -->
 <div align="center">
