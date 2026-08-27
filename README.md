@@ -19,22 +19,24 @@
 </picture>
 
 <!-- ═══════════════ PROJECTS ═══════════════ -->
-<div align="center">
-
-<img width="49%" alt="Healthy_Habits" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=Healthy_Habits&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="AniDev" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=AniDev&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="ai-service" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=ai-service&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-<img width="49%" alt="notesku-backend" src="https://sebas-stats.vercel.app/api/pin?username=Sebas200702&repo=notesku-backend&hide_border=true&cache_seconds=86400&bg_color=010101&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4" />
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/projects-light.svg">
+  <img alt="Featured projects"
+    src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/projects-light.svg">
+</picture>
 
 <!-- ═══════════════ STATS ═══════════════ -->
-<div align="center">
-
-<img width="49%" alt="stats" src="https://sebas-stats.vercel.app/api?username=Sebas200702&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&cache_seconds=43200&title_color=89B4FA&icon_color=CBA6F7&text_color=CDD6F4&bg_color=010101&card_width=500" />
-<img width="49%" alt="top langs" src="https://sebas-stats.vercel.app/api/top-langs/?username=Sebas200702&layout=compact&langs_count=8&hide_border=true&cache_seconds=172800&title_color=89B4FA&text_color=CDD6F4&bg_color=010101&card_width=500" />
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stats-light.svg">
+  <img alt="GitHub stats"
+    src="https://raw.githubusercontent.com/Sebas200702/Sebas200702/main/stats-light.svg">
+</picture>
 
 <!-- ═══════════════ BADGES ═══════════════ -->
 <div align="center">
